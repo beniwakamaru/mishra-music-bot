@@ -50,12 +50,12 @@ async def init():
         pass
     await Madmax.decorators()
     LOGGER("MadmaxXMusic").info(
-        "Music Bot Started Successfully, Now Give your girlfriend chumt to @SASHIKANT_XD"
+        "Music Bot Started Successfully, Now try to play a song to check its quality!"
     )
     await idle()
     await app.stop()
     await userbot.stop()
-    LOGGER("MadmaxXMusic").info("Stopping MadmaxX Music Bot...")
+    LOGGER("MadmaxXMusic").info("Stopping Mishra X Music Bot...")
 
 
 if __name__ == "__main__":
